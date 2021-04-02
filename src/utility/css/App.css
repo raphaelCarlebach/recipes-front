@@ -1,0 +1,25 @@
+.App {
+  height: 100%;
+  margin: 0, auto;
+  background-color: rgb(30, 30, 30);    
+ }
+ 
+ header{
+   min-height: 10%;
+   background-color:  rgb(30, 30, 30);
+   display: flex !important;
+   align-items: center;
+ }
+ 
+ main{
+   min-height: 75%;
+   color: white;
+   background-color: rgb(30, 30, 30);    
+ }
+ 
+ footer{
+   min-height: 15%;
+   color: white;
+   background-color: rgb(30, 30, 30);    
+ }
+

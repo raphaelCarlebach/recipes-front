@@ -1,0 +1,27 @@
+.error-page{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+   margin: 12px;
+}
+
+.error-page p{
+    font-size: 18px;
+}
+
+.error-page img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 576px){
+    
+    .error-page{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+}

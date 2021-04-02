@@ -1,0 +1,239 @@
+.new-re{
+  /* margin: 16px 10% ; */
+  display: flex;
+  justify-content: center;
+}
+
+.form-row1{
+    display: flex;
+    justify-content:space-between;
+}
+
+.my-input{  
+    border: 0.1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    outline: 0;
+    font-size: 1.2rem;
+    color: white;   
+    background: transparent;
+    padding:6px 12px;
+    height: 40px;
+}
+
+.my-textarea{
+    border: 0.1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    outline: 0;
+    font-size: 1.2rem;
+    color: white;   
+    background: transparent;
+    padding:6px 12px;
+}
+
+.titel{
+    width: 60%;
+}
+
+.black{
+    color: black;
+}
+
+#recipe_title{
+    width: 100%;
+}
+
+.category{
+    width: 30%;
+}
+
+#recipe_category{
+    width: 100%;
+  
+}
+
+.Description{
+    width: 100%;
+}
+
+.ingredients{
+    display: flex;
+}
+.item{
+    width: 50%;
+}
+
+#ProductName{
+    width: 100%;
+}
+
+.Quantity{
+    margin-left: 22px;
+    width: 25%;
+}
+
+#ProductQuantity{
+    width: 100%;
+}
+
+.Measurement{ 
+    margin-left: 22px;
+    width: 25%;
+   }
+
+#WeightType{
+ width: 100%;
+}
+
+.pluse-btn{   
+    margin:  10px;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 2rem;
+    font-weight: 650;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.ingredients_list{
+    padding: 8px;   
+    margin-top: 26px;
+}
+
+.prod{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 18px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgb(62, 62, 62);
+}
+
+.remove-Instruct{
+    cursor: pointer;
+}
+
+.instructions_list{
+    padding: 8px;   
+    margin-top: 26px;
+}
+
+#recipe_instructions{
+    width: 100%;
+}
+
+.addInstruction{
+    font-size: 1.4em;
+    
+}
+
+#recipe_image{
+    display: none;
+}
+
+.uplod-file{
+    cursor: pointer;
+    border: 2px #ffc700 solid;
+    border-radius: 50px 50px 50px 50px / 50px 50px 50px 50px;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.click{
+    cursor: pointer;
+    border: 2px #ffc700 solid;
+    border-radius: 50px 50px 50px 50px / 50px 50px 50px 50px;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#form-submit{
+    background-color: #ffc700!important;
+    border-color: #ffc700!important;
+    margin:  6px;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 650;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.wonrnig-Title{
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+
+  .wonrnig-category{
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+
+  .wonrnig-Ingredients{
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+
+  .wonrnig-Item{
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+
+  .wonrnig-Quantity{
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+
+  .wonrnig-Measurement{
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+
+  .wonrnig-instructions{
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+
+  .wonrnig-img{
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+
+  
+
+.fild{
+    border: 3px solid #ffc700;
+}
+
+legend{
+    width: 15%!important;
+    margin-left: 22px;
+    padding-left: 8px;
+}

@@ -1,0 +1,148 @@
+.registration{    
+    padding: 8px;    
+    margin: 12px;
+
+}
+
+.reg-forms{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 12px; */
+}
+
+.login{
+    /* border: 1px solid #ffc700; */
+    width: 40%;
+    min-width: 250px;
+    padding: 8px;
+    min-height: 400px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.sing-Up{
+    /* border: 1px solid #ffc700; */
+    width: 40%;
+    min-width: 250px;
+    padding: 8px;
+    min-height: 400px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.alternative{
+    border: 1px solid #ffc700;
+    border-radius: 10px 10px 10px 10px;
+    /* לתת גם הצללה שיבלות החוצה */
+    width: 40%;
+    min-width: 300px;
+    padding: 8px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}
+
+.alternative h2:hover{
+    cursor: pointer;
+}
+
+.reg-input{
+    border: 0.1px solid #ffc700;
+    border-radius: 10px 10px 10px 10px;
+    outline: 0;
+    font-size: 1rem;
+    color: white;   
+    background: transparent!important;
+    padding:6px 6px;
+    width: 100%;
+  
+}
+
+.wonrnig-Email{
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.wonrnig-Password{
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+#login_btn{
+    background-color: #ffc700!important;
+    border-color: #ffc700!important;
+    margin:  6px;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 650;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.clikbel:hover{
+    cursor: pointer;
+}
+
+.wonrnig-userN{
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.wonrnig-Email2{
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.wonrnig-Password2{
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+#sing_btn{
+    background-color: #ffc700!important;
+    border-color: #ffc700!important;
+    margin:  6px;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 650;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+@media screen and (max-width: 576px){
+    .reg-forms{
+        flex-wrap: wrap;
+    }
+
+    div.login {order: 1;}
+    div.sing-Up {order: 1;}
+    div.alternative {order: 2;}
+
+    
+}

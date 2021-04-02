@@ -1,0 +1,23 @@
+.footer-sec{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer-hr{
+   width: 47%;
+   float: left;
+   display: inline-block;
+  
+}
+
+.footer-hr2{
+   width: 47%;
+   float: right;
+   display: inline-block;
+}
+
+.footer-sec hr{
+   border-top: 1px solid white;
+
+}
